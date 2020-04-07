@@ -13,8 +13,9 @@ teams sync block for moodle
 Moodle の blocks 配下に teams_sync/ を展開し、管理ページにアクセスします。
 
 注意点
-・先にMicroft office365 連携プラグインのインストールが必要です。
-・Microsoft office365 連携プラグインの設定でTeams 同期を「Customize」に
+・先にMicrosoft office365連携プラグイン(https://moodle.org/plugins/local_o365)
+  のインストールが必要です。
+・Microsoft office365連携プラグインの設定でTeams 同期を「Customize」に
   設定する必要があります。
 ・Teams に同期するのみの機能で、同期を解除する機能は今後の課題です。
 ・排他制御はしていないので、複数のコースで同時に同期設定が行われた場合の
