@@ -13,9 +13,9 @@ teams sync block for moodle
 Moodle の blocks 配下に teams_sync/ を展開し、管理ページにアクセスします。
 
 注意点
-・Microsoft o365 連携プラグインの設定でTeams 同期を「cusstom」に設定する
+・Microsoft o365 連携プラグインの設定でTeams 同期を「Customize」に設定する
 　必要があります。
-・Teams に同期するのみの機能で、同期を解除する機能は含まれていません。
+・Teams に同期するのみの機能で、同期を解除する機能は今後の課題です。
 ・排他制御はしていないので、複数のコースで同時に同期設定が行われた場合の
 　挙動は不明です。
  
