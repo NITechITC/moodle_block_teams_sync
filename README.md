@@ -1,6 +1,8 @@
 # moodle_block_teams_sync
 teams sync block for moodle
 
+[English Version](/README.en.md)
+
 ## 説明
 このプラグインは、Moodle-Teams 連携を、各コースで教師が選択できるようにするために作成されました。  
 コースにTeams同期ブロックを追加し、ブロック中の「同期する」をクリックすると、同期するコースのIDをコンフィグに書き込むことで、
