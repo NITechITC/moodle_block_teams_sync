@@ -17,5 +17,4 @@ o365 group is deleted and Team of course is deleted too.
 ## Attention
 - Install the [Microsoft office 365 Moodle plugin](https://moodle.org/plugins/local_o365) first
 - Set the synchronization item of the plugin to "Customize"
-- Canceling the synchronization is not supported now
 - We do not recommend multiple synchronizations over multiple courses at a time
