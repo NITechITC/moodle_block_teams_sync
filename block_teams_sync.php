@@ -85,6 +85,8 @@ class block_teams_sync extends block_base{
 
         if ($flag) {
             $this->content->text = get_string('teamson','block_teams_sync');
+	    if (has_capability('moodle/course:update', $coursecontext)) {
+	        $this->content->text .= '<p><center><a href="'.$CFG->wwwroot.'/blocks/teams_sync/turnoff.php?id='.$id.'">'.get_string('turnoff','block_teams_sync').'</a></center><br />';
         } else {
             $this->content->text = get_string('teamsoff','block_teams_sync');
             if (has_capability('moodle/course:update', $coursecontext)) {
