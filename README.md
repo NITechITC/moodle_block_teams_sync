@@ -14,7 +14,7 @@ Moodle の blocks 配下に teams_sync/ を展開し、管理ページにアク�
 
 ## 更新（Jun.5.2020）
 Teams同期を解除する機能を追加しました。Teams同期ブロック内の「同期を解除する」をクリックすると、
-o365のグループが削除され、Teamsのチームが削除されます。
+o365のグループが削除され、Teams のチームが削除されます。
 
 ## 注意点
 - 先に [Microsoft office365連携プラグイン](https://moodle.org/plugins/local_o365) のインストールが必要です。
